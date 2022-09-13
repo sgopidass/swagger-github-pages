@@ -3,7 +3,7 @@ info:
   description: Sentiment Insights for Bazaarvoice Reviews
   version: 1.0.0
   x-api-id: d0184f38-b98d-11e7-9c56-68f728c1ba70
-  x-audience: external-partner
+  x-audience: company-internal
   title: Content Intelligence API
   contact:
     email: ReviewHighlights@BVoice.onmicrosoft.com
@@ -293,7 +293,7 @@ components:
       properties:
         product_external_id:
           type: string
-          example: 'product::8552878'
+          example: '8552878'
         quotes:
           type: array
           items:
@@ -304,7 +304,7 @@ components:
         properties:
           product_external_id:
             type: string
-            example: 'product::8552878'
+            example: '8552878'
           review_id:
             type: string
             example: a3951015-3a55-5e43-9d18-8b2d3bae5b1c
@@ -343,7 +343,7 @@ components:
             example: Objectif net et mise au point rapide
           en_translated_title:
             type: string
-            example: 'product::8552878'
+            example: 'Sharp lens and fast focus'
           en_translated_text:
             type: string
             example: >-
@@ -357,7 +357,7 @@ components:
       properties:
         product_external_id:
           type: string
-          example: 'product::8552878'
+          example: '8552878'
         best_features:
           type: array
           items:
@@ -425,7 +425,7 @@ components:
       properties:
         product_id:
           type: string
-          example: 'product::8552878'
+          example: '8552878'
         bestFeatures:
           type: array
           items:
